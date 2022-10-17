@@ -1,0 +1,16 @@
+{
+
+    "autoload": {
+        "psr-4": {
+            "MyApp\\": "src"
+        }
+    },
+    
+    "require": {
+        "phpmailer/phpmailer": "^6.3",
+        "pusher/pusher-php-server": "^7.0",
+        "jolicode/jolinotif": "^2.3",
+        "google/apiclient": "^2.9",
+        "cboden/ratchet": "^0.4.3"
+    }
+}

@@ -1,0 +1,8 @@
+RewriteEngine on
+
+RewriteRule ^(index|contact|registration)$ $1.php [NC,L]
+
+RewriteRule ^post/(\d+)$ post.php?p_id=$1 [NC,L]
+
+RewriteRule ^edit_post/(\d+)$ edit_post.php?edit=$1 [NC,L]
+

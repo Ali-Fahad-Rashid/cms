@@ -1,0 +1,139 @@
+.searchh{
+    animation: search 2s 1s;
+    animation-fill-mode: forwards;
+    opacity: 0; 
+  }
+
+
+  @keyframes search {
+
+
+  0%{
+    transform: translateX(250px);
+
+  }
+
+  100%{
+
+    opacity: 1; 
+
+}
+  }
+
+  .nana{
+
+    animation: example 2s 1s;
+    animation-fill-mode: forwards;
+    opacity: 0; 
+}
+@keyframes example {
+  0%   {
+
+    transform: translatey(-60px);}
+
+    50% {
+
+        color: rgb(4, 160, 221);
+
+    }
+
+76%{
+    color: rgb(221, 4, 138);
+
+    border-radius: 50%;
+
+}
+100%{
+
+    opacity: 1; 
+
+}
+}
+
+  
+.ali{
+    font-size: 20px;
+    color: var(--background);
+    animation: ali 2s ease-in-out  alternate, aaa 0.2s ease-in infinite alternate ;
+    animation-fill-mode: forwards;
+    opacity: 0; 
+}
+@keyframes ali {
+  0%   {
+    transform: translatex(-60px);
+}
+50%{
+    transform: scale(2);
+}
+100%{
+    opacity: 1; 
+}
+}
+@keyframes aaa {
+    from {
+        text-shadow: 0 0 10px var(--background), 0 0 10px var(--background), 0 0 10px #e60073, 0 0 10px #e60073, 0 0 10px #e60073, 0 0 10px #e60073, 0 0 10px #e60073;
+    }
+  to {
+    text-shadow: 0 0 10px var(--background), 0 0 10px #ff4da6, 0 0 10px #ff4da6, 0 0 10px #ff4da6, 0 0 10px #ff4da6, 0 0 10px #ff4da6, 0 0 10px #ff4da6;
+}
+  }
+  
+
+
+
+
+
+
+
+  #mm{
+    animation: mm 2s  ease-in-out  alternate;
+    animation-fill-mode: forwards;
+    opacity: 0; 
+}
+@keyframes mm {
+  0%   {
+    transform: rotate(-20deg);
+
+}
+50%{
+    transform: translatex(260px);
+
+}
+100%{
+    opacity: 1; 
+}
+}
+
+
+#rr{
+    animation: rr 2s 2s ease-in-out  alternate;
+    animation-fill-mode: forwards;
+    opacity: 0; 
+}
+@keyframes rr {
+  0%   {
+    transform: translatex(660px);
+
+
+}
+25%{
+    transform: rotate(360deg);
+
+}
+
+
+50%{
+    transform: translatex(60px);}
+    
+75%{
+    transform: rotate(360deg);
+
+
+}
+
+100%{
+
+    opacity: 1; 
+
+}
+}
